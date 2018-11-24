@@ -1,0 +1,96 @@
+{
+    "rules": {
+        "align": [
+            true,
+            "parameters",
+            "statements"
+        ],
+        "camel-case-local-functions": true,
+        "class-name": true,
+        "curly": true,
+        "declare-class-methods-after-use": false,
+        "indent": [
+            true,
+            "spaces"
+        ],
+        "jsx-attribute-spacing": true,
+        "jsx-no-braces-for-string-attributes": true,
+        "label-position": true,
+        "member-access": true,
+        "member-ordering": [
+            true,
+            "static-before-instance",
+            "variables-before-functions"
+        ],
+        "no-arg": true,
+        "no-console": [
+            true,
+            "debug",
+            "info",
+            "time",
+            "timeEnd",
+            "trace"
+        ],
+        "no-consecutive-blank-lines": true,
+        "no-construct": true,
+        "no-debugger": true,
+        "no-duplicate-variable": true,
+        "no-empty-line-after-opening-brace": false,
+        "no-eval": true,
+        "no-inferrable-types": true,
+        "no-trailing-whitespace": true,
+        "no-use-before-declare": true,
+        "no-var-keyword": true,
+        "one-line": [
+            true,
+            "check-open-brace",
+            "check-catch",
+            "check-else",
+            "check-whitespace"
+        ],
+        "quotemark": [
+            true,
+            "single",
+            "avoid-escape"
+        ],
+        "radix": false,
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "sort-imports": false,
+        "trailing-comma": [
+            true,
+            {
+                "singleline": "never",
+                "multiline": "never"
+            }
+        ],
+        "triple-equals": [
+            true,
+            "allow-null-check"
+        ],
+        "variable-name": false,
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-separator",
+            "check-type"
+        ]
+    },
+    "rulesDirectory": [
+        "./node_modules/tslint-microsoft-contrib",
+        "./node_modules/tslint-misc-rules/rules"
+    ],
+    "linterOptions": {
+        "exclude": [
+            "config/**/*.js",
+            "node_modules/**/*.ts",
+            "src/Api/CoffeeModels.ts",
+            "src/Api/ShareFile.Api.Models.ts",
+            "tasks/**/*.js"
+        ]
+    }
+}

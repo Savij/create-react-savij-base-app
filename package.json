@@ -1,6 +1,6 @@
 {
   "name": "create-react-savij-base-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "create-react-app with TypeScript, React-Router, Mobx, Material Design and a few other things I like",
   "main": "index.js",
   "scripts": {},

@@ -1,4 +1,4 @@
-module.exports = `import * as axios from 'axios';
+module.exports = `import axios, { AxiosRequestConfig } from 'axios';
 import * as qs from 'query-string';
 import SharedItems from '../Stores/SharedItems';
 
@@ -20,7 +20,7 @@ class OKClient {
 
     private executeHTTPRequest<T>(request: OKRequest<T>) {
         return new Promise<T>((resolve, reject) => {
-            const config: Axios.AxiosXHRConfig<any> = {
+            const config: AxiosRequestConfig = {
                 data: request.data,
                 headers: request.headers,
                 method: 'GET',

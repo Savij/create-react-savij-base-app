@@ -37,7 +37,7 @@ const createReactApp = () => {
 const installDepsPackages = () => {
     return new Promise(resolve => {
         console.log("\nInstalling custom dependencies\n".cyan)
-        shell.exec(`yarn add @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/fontawesome-svg-core @material-ui/core @material-ui/icons axios @types/axios@0.9.36 webfontloader @types/webfontloader classnames @types/classnames react-router react-dom react-router-dom @types/react-router-dom mobx mobx-react mobx-react-router query-string @types/query-string tslint-microsoft-contrib tslint-misc-rules`, () => {
+        shell.exec(`yarn add @fortawesome/react-fontawesome @fortawesome/free-solid-svg-icons @fortawesome/fontawesome-svg-core @material-ui/core @material-ui/icons axios webfontloader @types/webfontloader classnames @types/classnames react-router react-dom react-router-dom @types/react-router-dom mobx mobx-react mobx-react-router query-string @types/query-string tslint-microsoft-contrib tslint-misc-rules`, () => {
             console.log("\nFinished installing packages\n".green)
             resolve()
         })
